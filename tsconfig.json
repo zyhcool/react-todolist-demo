@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2015",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "src",
+    "sourceMap": true,
+    "outDir": "build",
+    "jsx": "preserve",
+    "strict": true,
+    "moduleResolution": "node",
+  },
+  // "compilerOptions": {
+  //   "baseUrl": ".",
+  //   "outDir": "build/dist",
+  //   "module": "esnext",
+  //   "target": "es5",
+  //   "lib": [
+  //     "es6",
+  //     "dom"
+  //   ],
+  //   "sourceMap": true,
+  //   "allowJs": true,
+  //   "jsx": "react",
+  //   // "moduleResolution": "node",
+  //   "rootDir": "src",
+  //   "forceConsistentCasingInFileNames": true,
+  //   "noImplicitReturns": true,
+  //   "noImplicitThis": true,
+  //   "noImplicitAny": true,
+  //   "strictNullChecks": true,
+  //   "suppressImplicitAnyIndexErrors": true,
+  //   "noUnusedLocals": true,
+  //   "emitDecoratorMetadata": true,
+  //   "experimentalDecorators": true,
+  // },
+  "exclude": [
+    "node_modules"
+  ]
+}
